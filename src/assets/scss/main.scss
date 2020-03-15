@@ -40,7 +40,7 @@
 		)
 	));
 
-	$size-header-width: 35%;
+	$size-header-width: 30%;
 	$size-header-pad: 4em;
 
 /* Basic */
@@ -931,12 +931,12 @@
 		}
 
 		h2, h3, h4, h5, h6 {
-			color: _palette(accent2, fg-bold);
+			color: _palette(accent2, fg);
 		}
 
 		h1 {
 			color: _palette(accent2, fg);
-			font-size: 1.35em;
+			font-size: 1.50em;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -950,6 +950,7 @@
 /* Footer */
 
 	#footer {
+
 		.icons {
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
@@ -1257,6 +1258,7 @@
 
 			ul {
 				&.icons {
+
 					li {
 						.icon {
 							font-size: 1.25em;
