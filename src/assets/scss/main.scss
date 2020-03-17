@@ -903,7 +903,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('../../image/overlay.png'),			url('../../image/bg.jpg');
+		background-image:		url('./overlay.png'),			url('./bg.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -1248,11 +1248,7 @@
 
 		/* Basic */
 
-			h1, h2, h3, h4, h5, h6 {
-				br {
-					display: none;
-				}
-			}
+			
 
 		/* List */
 
